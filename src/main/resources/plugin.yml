@@ -1,3 +1,16 @@
 name: RoomRobot
-version: '${project.version}'
-main: org.xinghaimc.roomrobot.Main
+version: '1.3'
+main: com.xinghai.roomrobot.Main
+api-version: '1.13'
+prefix: RoomRobot
+load: STARTUP
+authors: [ XinghaiMC ]
+description: 一个简单的扫地机器人插件。
+website: hixinghai.com
+folia-supported: true
+
+commands:
+  roomrobot:
+    description: 扫地机器人插件命令
+    usage: /roomrobot reload - 重载配置文件
+    permission: roomrobot.reload
